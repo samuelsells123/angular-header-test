@@ -6,7 +6,7 @@ import { Component, EventEmitter, Output } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  userData: object = {
+  loginUser: object = {
     "userId" : 3,
     "firstName" : "Samuel",
     "lastName" :  "Sells",
